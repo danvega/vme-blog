@@ -29,6 +29,8 @@ You can use the [Spring Initializr](start.spring.io) to create a new Spring Boot
 
 https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.0-RC2&packaging=jar&jvmVersion=21&groupId=dev.danvega&artifactId=vmeblog&name=vmeblog&description=VMware%20Explore%20Code%20Theater%20Blog&packageName=dev.danvega.vmeblog&dependencies=web,data-jdbc,postgresql,docker-compose,graphql,actuator,devtools
 
+I like renaming the main application class to `Application.java` 🤷‍♂️
+
 ### Configure Docker Compose 
 
 Configure the properties from the Postgres Database and make sure to expose port 5432 on host and container so that we can connect to it from our IDE tools. 
@@ -46,7 +48,7 @@ services:
 ```
 
 After this has been updated, start the application and make sure everything is working. At this time you can 
-also connect to the database using your favorite database tool. In my example I am using the built in database tools
+also connect to the database using your favorite database tool. In my example I am using the built-in database tools
 in IntelliJ.
 
 ### Load Blog Posts from JSON
