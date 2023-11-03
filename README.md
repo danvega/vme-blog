@@ -361,4 +361,5 @@ Hello 👋🏻 My name is Dan Vega, Spring Developer Advocate, Husband and #Girl
 - Open app in IntelliJ with Database Connection Setup
 - Rename Application
 - Mention the graphql inspection report
-- Mutations Examples? 
+- Mutations Examples?
+- Delete db from Docker
